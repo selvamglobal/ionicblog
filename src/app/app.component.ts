@@ -17,9 +17,14 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'List',
-      url: '/list',
-      icon: 'list'
+      title: 'blog',
+      url: '/blog',
+      icon: 'paper'
+    },
+    {
+      title: 'Admin',
+      url: '/admin',
+      icon: 'construct'
     }
   ];
 
@@ -33,8 +38,8 @@ export class AppComponent {
 
   initializeApp() {
     this.platform.ready().then(() => {
-      this.statusBar.styleDefault();
-      this.splashScreen.hide();
+     /*  this.statusBar.styleDefault();
+      this.splashScreen.hide(); */
     });
   }
 }

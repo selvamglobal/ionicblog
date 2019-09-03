@@ -1,0 +1,39 @@
+<ion-header>
+   
+  <ion-toolbar>
+      <ion-buttons slot="end">
+          <ion-back-button></ion-back-button>
+            </ion-buttons>
+    <ion-title>post-list</ion-title>
+    <ion-buttons slot="end">
+        <ion-menu-button></ion-menu-button>
+          </ion-buttons>
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+ 
+      <ion-col size="12" size-sm>
+        <ion-card routerLink="/blog/:id" >
+          <ion-img src="/assets/shapes.svg">
+
+          </ion-img>
+          <ion-card-header>
+            <ion-card-subtitle>Posted by Olivera &bull; 2 mins ago</ion-card-subtitle>
+          <ion-card-subtitle>Welcome to ngBlog</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nesciunt nobis consectetur velit deleniti nihil, ratione nam ipsa quia provident harum quod pariatur adipisci dolore voluptates iusto aliquam eius beatae.
+            </p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+     
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
